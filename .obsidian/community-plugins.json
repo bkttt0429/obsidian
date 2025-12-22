@@ -4,5 +4,6 @@
   "templater-obsidian",
   "obsidian-git",
   "obsidian-style-settings",
-  "smart-composer"
+  "smart-composer",
+  "obsidian-local-rest-api"
 ]

@@ -236,8 +236,8 @@
       "enable": true
     },
     {
-      "providerId": "gemini",
       "providerType": "gemini",
+      "providerId": "gemini",
       "id": "gemini-3-flash-preview",
       "model": "gemini-3-flash-preview",
       "promptLevel": 1,

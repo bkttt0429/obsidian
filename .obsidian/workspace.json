@@ -11,12 +11,14 @@
             "id": "0cd7acd584bb98ed",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "網路筆記/LAN3.png"
+                "file": "網路筆記/計算機網路的概念.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "LAN3"
+              "icon": "lucide-file",
+              "title": "計算機網路的概念"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "網路筆記/LAN3.png",
+                "file": "網路筆記/計算機網路的概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "LAN3 的反向連結"
+              "title": "計算機網路的概念 的反向連結"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "網路筆記/LAN3.png",
+                "file": "網路筆記/計算機網路的概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "LAN3 的對外連結"
+              "title": "計算機網路的概念 的對外連結"
             }
           },
           {
@@ -205,8 +207,9 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "70fa7f4b33b00d9b",
+  "active": "0cd7acd584bb98ed",
   "lastOpenFiles": [
+    "網路筆記/LAN3.png",
     "網路筆記/assets/image 12.png",
     "網路筆記/assets/image 11.png",
     "網路筆記/assets/image 103.png",
@@ -217,7 +220,6 @@
     "網路筆記/assets/image 1.png",
     "網路筆記/assets/ham2.png",
     "網路筆記/assets/ham1.png",
-    "網路筆記/assets/fargment.png",
     "網路筆記/assets",
     "hello.md",
     "網路筆記/計算機網路的概念.md",
