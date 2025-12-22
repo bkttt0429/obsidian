@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "10e4e7d39811dbf7",
+        "id": "46e62f89a0a3b71f",
         "type": "tabs",
         "children": [
           {
-            "id": "b8c6ee9b1fb9996e",
+            "id": "03a18a010a249487",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "[\"excalidraw-plugin\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "title": "網路參考模型 的大綱"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,12 +186,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
-    "collapsed": true
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,14 +208,14 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "b8c6ee9b1fb9996e",
+  "active": "03a18a010a249487",
   "lastOpenFiles": [
+    "網路筆記/計算機網路的概念.md",
+    "網路筆記/資安.md",
+    "未命名.canvas",
     "Excalidraw/Drawing 2025-12-23 02.34.58.excalidraw.md",
     "網路筆記/網路參考模型.md",
     "Excalidraw",
-    "未命名.canvas",
-    "網路筆記/計算機網路的概念.md",
-    "網路筆記/資安.md",
     "網路筆記/錯誤考題回顧.md",
     "作業系統/內存管理.md",
     "作業系統/文件管理.md",
@@ -257,7 +255,6 @@
     "資料結構/線性表-Linear List.md",
     "資料結構/數據結構基本概念.md",
     "資料結構/算法和算法效率的評價.md",
-    "資料結構/圖.md",
-    "資料結構/搜索樹.md"
+    "資料結構/圖.md"
   ]
 }

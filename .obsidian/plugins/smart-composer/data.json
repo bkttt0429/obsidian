@@ -318,11 +318,11 @@
         "toolOptions": {
           "obsidian_list_files_in_dir": {
             "disabled": false,
-            "allowAutoExecution": false
+            "allowAutoExecution": true
           },
           "obsidian_list_files_in_vault": {
             "disabled": false,
-            "allowAutoExecution": false
+            "allowAutoExecution": true
           },
           "obsidian_get_file_contents": {
             "disabled": false,
@@ -334,15 +334,15 @@
           },
           "obsidian_patch_content": {
             "disabled": false,
-            "allowAutoExecution": false
+            "allowAutoExecution": true
           },
           "obsidian_append_content": {
             "disabled": false,
-            "allowAutoExecution": false
+            "allowAutoExecution": true
           },
           "obsidian_delete_file": {
             "disabled": false,
-            "allowAutoExecution": false
+            "allowAutoExecution": true
           },
           "obsidian_complex_search": {
             "disabled": false,
