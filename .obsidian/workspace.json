@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "網路筆記/網路參考模型.md",
+                "file": "網路筆記/錯誤考題回顧.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "網路參考模型"
+              "title": "錯誤考題回顧"
             }
           }
         ]
@@ -80,13 +80,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "網路筆記/網路參考模型.md",
+                "file": "網路筆記/錯誤考題回顧.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "網路參考模型 的大綱"
+              "title": "錯誤考題回顧 的大綱"
             }
           }
         ]
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "網路筆記/網路參考模型.md",
+                "file": "網路筆記/錯誤考題回顧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "網路參考模型 的反向連結"
+              "title": "錯誤考題回顧 的反向連結"
             }
           },
           {
@@ -138,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "網路筆記/網路參考模型.md",
+                "file": "網路筆記/錯誤考題回顧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "網路參考模型 的對外連結"
+              "title": "錯誤考題回顧 的對外連結"
             }
           },
           {
@@ -185,7 +185,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -207,11 +208,11 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "a28d27fa3424a850",
+  "active": "b104afecddf881a6",
   "lastOpenFiles": [
+    "網路筆記/網路參考模型.md",
     "網路筆記/資安.md",
     "網路筆記/計算機網路的概念.md",
-    "網路筆記/網路參考模型.md",
     "網路筆記/錯誤考題回顧.md",
     "網路筆記/assets/LAN3.png",
     "網路筆記/assets/e8e33625-be8b-420c-bf53-acaaa07d3f9c.png",
