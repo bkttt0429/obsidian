@@ -1,6 +1,4 @@
 {
   "theme": "obsidian",
-  "enabledCssSnippets": [
-    "aside-custom"
-  ]
+  "enabledCssSnippets": []
 }
