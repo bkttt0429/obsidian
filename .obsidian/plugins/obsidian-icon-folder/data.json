@@ -37,5 +37,19 @@
   "網路筆記/計算機網路的概念.md": "LiFile",
   "網路筆記/資安.md": "LiFile",
   "網路筆記/網路參考模型.md": "LiFile",
-  "網路筆記/錯誤考題回顧.md": "LiFile"
+  "網路筆記/錯誤考題回顧.md": "LiFile",
+  "資料結構": "📁",
+  "資料結構/assets": "LiPictureInPicture",
+  "資料結構/查找.md": "LiFile",
+  "資料結構/記憶體地址計算.md": "LiFile",
+  "資料結構/堆疊-Stack & 隊列 Queue.md": "LiFile",
+  "資料結構/排序.md": "LiFile",
+  "資料結構/搜索樹.md": "LiFile",
+  "資料結構/圖.md": "LiFile",
+  "資料結構/算法和算法效率的評價.md": "LiFile",
+  "資料結構/數據結構基本概念.md": "LiFile",
+  "資料結構/線性表-Linear List.md": "LiFile",
+  "資料結構/樹.md": "LiFile",
+  "資料結構/鏈式存儲.md": "LiFile",
+  "資料結構/Hash Table.md": "LiFile"
 }
