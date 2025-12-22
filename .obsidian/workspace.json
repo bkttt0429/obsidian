@@ -111,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hello.md",
+                "file": "網路筆記/LAN3.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "hello 的對外連結"
+              "title": "LAN3 的對外連結"
             }
           },
           {
@@ -183,7 +183,8 @@
               "title": "Smart composer chat"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -204,25 +205,27 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "a28d27fa3424a850",
+  "active": "70fa7f4b33b00d9b",
   "lastOpenFiles": [
+    "網路筆記/assets/image 12.png",
+    "網路筆記/assets/image 11.png",
+    "網路筆記/assets/image 103.png",
+    "網路筆記/assets/image 102.png",
+    "網路筆記/assets/image 101.png",
+    "網路筆記/assets/image 100.png",
+    "網路筆記/assets/image 10.png",
+    "網路筆記/assets/image 1.png",
+    "網路筆記/assets/ham2.png",
+    "網路筆記/assets/ham1.png",
+    "網路筆記/assets/fargment.png",
+    "網路筆記/assets",
     "hello.md",
-    "網路筆記/image 102.png",
-    "網路筆記/LAN3.png",
-    "網路筆記/3015b5c1-b903-417c-92b8-774a22ff0bf9.png",
     "網路筆記/計算機網路的概念.md",
     "網路筆記/錯誤考題回顧.md",
     "網路筆記/資安.md",
     "網路筆記/網路參考模型.md",
-    "網路筆記/image 1.png",
-    "網路筆記/ham2.png",
-    "網路筆記/ham1.png",
-    "網路筆記/編碼.png",
-    "網路筆記/調製技術.png",
     "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421_all.csv",
     "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421.csv",
-    "網路筆記/image.png",
-    "網路筆記/image 99.png",
     "網路筆記",
     "新增 文字文件.txt",
     "新增資料夾",
