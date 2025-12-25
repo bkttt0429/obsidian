@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aaa9af2c4036e920",
+        "id": "525e17cf26771218",
         "type": "tabs",
         "children": [
           {
-            "id": "c1c2b76ad86950b9",
+            "id": "b36bdd2b2d891109",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -213,10 +213,10 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "c1c2b76ad86950b9",
+  "active": "b36bdd2b2d891109",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "未命名.base",
+    "conflict-files-obsidian-git.md",
     "未命名.canvas",
     "資料結構/資料結構考題.md",
     "資料結構/圖.md",
