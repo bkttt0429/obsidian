@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"excalidraw-plugin\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,16 +80,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "計算機概論/存储系统.md",
+                "file": "資料結構/資料結構考題.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "存储系统 的大綱"
+              "title": "資料結構考題 的大綱"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -207,7 +208,7 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "5efea38a9ba309b9",
+  "active": "3575020a7e8a98c9",
   "lastOpenFiles": [
     "資料結構/資料結構考題.md",
     "資料結構/圖.md",
