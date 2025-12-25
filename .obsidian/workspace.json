@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "資料結構/資料結構考題.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -207,7 +207,7 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "a28d27fa3424a850",
+  "active": "03a18a010a249487",
   "lastOpenFiles": [
     "計算機概論/存储系统.md",
     "資料結構/資料結構考題.md",

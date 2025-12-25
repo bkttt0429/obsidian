@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNotebookPen",
       "LiFile",
       "LiPictureInPicture",
       "📁"
@@ -68,5 +69,6 @@
   "作業系統/進程與線程.md": "LiFile",
   "作業系統/設備管理.md": "LiFile",
   "作業系統/文件管理.md": "LiFile",
-  "作業系統/內存管理.md": "LiFile"
+  "作業系統/內存管理.md": "LiFile",
+  "資料結構/資料結構考題.md": "LiNotebookPen"
 }
