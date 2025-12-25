@@ -1,0 +1,250 @@
+{
+  "id": "84ea33f1-8ace-4762-86c9-08b247975f33",
+  "title": "幫我修正<aside>排版",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "幫我修正<aside>排版",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n幫我修正<aside>排版\n\n"
+        }
+      ],
+      "id": "b7d5cc84-f06c-4d6b-b87e-39331b866306",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "資料結構/樹.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "已針對 `<aside>` 區塊內的二元樹性質進行排版優化，統一數學符號格式並加強視覺層次。\n\n<smtcmp_block filename=\"資料結構/樹.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 **二元樹性質**\n\n---\n\n**性質 1：第 $i$ 層最多有 $2^{i-1}$ 個節點**\n- 第 1 層：最多 $2^0 = 1$ 個\n- 第 2 層：最多 $2^1 = 2$ 個\n- 第 3 層：最多 $2^2 = 4$ 個\n- **一般化**：第 $i$ 層最多有 $2^{i-1}$ 個節點\n\n---\n\n**性質 2：深度為 $h$ 的二元樹最多有 $2^h - 1$ 個節點**\n> 此即為**滿二元樹**（Full Binary Tree）的總節點數。\n> **範例**：若深度 $h = 3$，最多節點數為 $2^3 - 1 = 7$。\n\n---\n\n**性質 3：具有 $n$ 個節點的二元樹，至少有 $\\lceil \\log_2(n + 1) \\rceil$ 層**\n> 最少層數發生在完全二元樹（$\\lceil \\rceil$ 表示上取整）。\n\n---\n\n**性質 4：完全二元樹的節點索引（陣列實作）**\n若當前節點索引為 $i$：\n- **左子節點**：$2i$\n- **右子節點**：$2i + 1$\n- **父節點**：$\\lfloor i / 2 \\rfloor$\n\n---\n\n**性質 5：有 $n$ 個節點的二元樹共有 $n + 1$ 個空指標（null links）**\n- **總指標數**：$2n$（每個節點 2 個指標）\n- **已用指標**：$n - 1$（除根節點外，其餘節點皆由一條邊指向）\n- **空指標數**：$2n - (n - 1) = n + 1$\n\n---\n\n**性質 6：葉節點數與度為 2 的節點關係**\n> **公式：$n_0 = n_2 + 1$**\n> - $n_0$：葉節點數（度為 0）\n> - $n_2$：度為 2 的節點數\n\n---\n\n💡 **等比級數求和**\n$$S_n = a_1 + a_1q + \\dots + a_1q^{n-1} = \\frac{a_1(1-q^n)}{1-q} \\quad (q \\neq 1)$$\n\n</aside>\n<!-- ... existing content ... -->\n</smtcmp_block>",
+      "id": "cc5f6408-b53f-4e6b-b78c-e679bdf61287",
+      "metadata": {
+        "model": {
+          "providerType": "gemini",
+          "providerId": "gemini",
+          "id": "gemini-3-flash-preview",
+          "model": "gemini-3-flash-preview",
+          "promptLevel": 1,
+          "enable": true
+        },
+        "usage": {
+          "prompt_tokens": 8513,
+          "completion_tokens": 669,
+          "total_tokens": 10296
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "幫我修正<aside>排版 改好檔案",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n幫我修正<aside>排版 改好檔案\n\n"
+        }
+      ],
+      "id": "8b9525ce-afbd-41f8-988c-f431d67f0fed",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "資料結構/樹.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "已為您修正 `資料結構/樹.md` 中 `<aside>` 區塊的排版，統一了數學公式格式並優化視覺層次。\n\n<smtcmp_block filename=\"資料結構/樹.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n---\n\n<aside>\n💡 **二元樹性質**\n\n---\n\n**性質 1：第 $i$ 層最多有 $2^{i-1}$ 個節點**\n- 第 1 層：最多 $2^0 = 1$ 個\n- 第 2 層：最多 $2^1 = 2$ 個\n- 第 3 層：最多 $2^2 = 4$ 個\n- **一般化**：第 $i$ 層最多有 $2^{i-1}$ 個節點\n\n---\n\n**性質 2：深度為 $h$ 的二元樹最多有 $2^h - 1$ 個節點**\n> 此即為**滿二元樹**（Full Binary Tree）的總節點數。  \n> **範例**：若深度 $h = 3$，最多節點數為 $2^3 - 1 = 7$。\n\n---\n\n**性質 3：具有 $n$ 個節點的二元樹，至少有 $\\lceil \\log_2(n + 1) \\rceil$ 層**\n> 最少層數發生在完全二元樹（$\\lceil \\rceil$ 表示上取整）。\n\n---\n\n**性質 4：完全二元樹的節點索引（陣列實作）**\n若當前節點索引為 $i$：\n- **左子節點**：$2i$\n- **右子節點**：$2i + 1$\n- **父節點**：$\\lfloor i / 2 \\rfloor$\n\n---\n\n**性質 5：有 $n$ 個節點的二元樹共有 $n + 1$ 個空指標（null links）**\n- **總指標數**：$2n$（每個節點 2 個指標）\n- **已用指標**：$n - 1$（除根節點外，其餘節點皆由一條邊指向）\n- **空指標數**：$2n - (n - 1) = n + 1$\n\n---\n\n**性質 6：葉節點數與度為 2 的節點關係**\n> **公式：$n_0 = n_2 + 1$**\n> - $n_0$：葉節點數（度為 0）\n> - $n_2$：度為 2 的節點數\n\n---\n\n💡 **等比級數求和**\n$$S_n = a_1 + a_1q + \\dots + a_1q^{n-1} = \\frac{a_1(1-q^n)}{1-q} \\quad (q \\neq 1)$$\n\n---\n\n</aside>\n\n### 儲存結構\n<!-- ... existing content ... -->\n</smtcmp_block>",
+      "id": "76698fba-fe3a-4c90-8ea3-f5c6acf03722",
+      "metadata": {
+        "model": {
+          "providerType": "gemini",
+          "providerId": "gemini",
+          "id": "gemini-3-flash-preview",
+          "model": "gemini-3-flash-preview",
+          "promptLevel": 1,
+          "enable": true
+        },
+        "usage": {
+          "prompt_tokens": 9197,
+          "completion_tokens": 684,
+          "total_tokens": 10150
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "參考</smtcmp_block> 幫我改好全部文件的<aside>排版",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n參考</smtcmp_block> 幫我改好全部文件的<aside>排版\n\n"
+        }
+      ],
+      "id": "70fce521-ac97-4c07-a51d-2e80413e76e9",
+      "mentionables": []
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "toolCallRequests": [
+        {
+          "id": "2ed81613-18ba-4c11-bc59-105e98322a62",
+          "name": "obsidian_MCP__obsidian_simple_search",
+          "arguments": "{\"query\":\"<aside>\"}"
+        }
+      ],
+      "id": "d722735e-07e1-41ba-9074-581217caee01",
+      "metadata": {
+        "model": {
+          "providerType": "gemini",
+          "providerId": "gemini",
+          "id": "gemini-3-flash-preview",
+          "model": "gemini-3-flash-preview",
+          "promptLevel": 1,
+          "enable": true
+        },
+        "usage": {
+          "prompt_tokens": 3144,
+          "completion_tokens": 26,
+          "total_tokens": 3265
+        }
+      }
+    },
+    {
+      "role": "tool",
+      "toolCalls": [
+        {
+          "request": {
+            "id": "2ed81613-18ba-4c11-bc59-105e98322a62",
+            "name": "obsidian_MCP__obsidian_simple_search",
+            "arguments": "{\"query\":\"<aside>\"}"
+          },
+          "response": {
+            "status": "success",
+            "data": {
+              "type": "text",
+              "text": "[\n  {\n    \"filename\": \"\\u7db2\\u8def\\u7b46\\u8a18/\\u7db2\\u8def\\u53c3\\u8003\\u6a21\\u578b.md\",\n    \"score\": -888.9222000000001,\n    \"matches\": [\n      {\n        \"context\": \"\\u3001\\u65e9\\u671f\\u4e59\\u592a\\u7db2 |\\n| **\\u5149\\u7e96 (Optical Fiber)** | \\u50b3\\u8f38\\u901f\\u7387\\u9ad8\\u3001\\u6297\\u5e72\\u64fe\\u5f37\\u3001\\u50f9\\u683c\\u8f03\\u9ad8 | \\u9577\\u8ddd\\u96e2\\uff08\\u53ef\\u9054\\u6578\\u5341\\u516c\\u91cc\\uff09 | \\u9ad8\\u901f\\uff0810Gbps\\u4ee5\\u4e0a\\uff09 | \\u9aa8\\u5e79\\u7db2\\u3001\\u96fb\\u4fe1\\u9aa8\\u5e79\\u3001\\u8cc7\\u6599\\u4e2d\\u5fc3 |\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u4ee5\\u592a\\u7db2\\uff08Ethernet\\uff09\\u6709\\u7dda\\u50b3\\u8f38\\u4ecb\\u8cea\\u7684\\u547d\\u540d\\u898f\\u5247**\\n\\n\\u2705 \\u547d\\u540d\\u683c\\u5f0f\\uff1a\\n\\n**\\u300c\\u901f\\u5ea6 + Base + \\u4ecb\\u8cea\\u8cc7\\u8a0a\\u300d**\\n\\n| \\u540d\\u7a31 | \\u50b3\\u8f38\\u901f\\u7387 | \\u50b3\\u8f38\\u65b9\\u5f0f | \\u50b3\\u8f38\\u4ecb\\u8cea | \\u50b3\\u8f38\\u8ddd\\u96e2\",\n        \"match_position\": {\n          \"start\": 4118,\n          \"end\": 4125\n        }\n      },\n      {\n        \"context\": \"\\uff0cz_u=\\\\pm 1 \\u2192 \\u5224\\u6c7a (z_u\\\\ge 0 \\\\Rightarrow 1)\\u3002$\\n\\n> \\u4e00\\u773c\\u5224\\u65b7\\uff1a\\u628a\\u300c\\u758a\\u52a0\\u4fe1\\u865f\\u8207\\u81ea\\u5df1\\u7684\\u78bc\\u300d\\u505a\\u898f\\u683c\\u5316\\u5167\\u7a4d\\uff0c\\u5f97\\u5230 +1\\uff08\\u5224 1\\uff09\\u6216 \\u22121\\uff08\\u5224 0\\uff09\\u3002\\n> \\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n\\u7c21\\u55ae\\u7406\\u89e3\\n\\n1.\\u5404\\u7bc0\\u9ede\\u6709\\u5c08\\u5c6c\\u7684\\u78bc\\u7247\\u5e8f\\u5217 (\\u50cf\\u662fID)\\n\\n\\u898f\\u5b9a:\\u4efb\\u610f\\u76f8\\u4e92\\u6b63\\u4ea4\\u70ba0 EX:$\\\\mathbf{a}\\\\cdot\\\\mathbf {b}=0$\\n\\n![image.png](assets/\",\n        \"match_position\": {\n          \"start\": 16105,\n          \"end\": 16112\n        }\n      },\n      {\n        \"context\": \"\\u5169\\u7ad9\\u4e4b\\u9593\\u55ae\\u7a0b\\u50b3\\u64ad\\u6240\\u9700\\u7684\\u6642\\u9593\\u3002 |\\n    | $( R )$ | **\\u50b3\\u8f38\\u901f\\u7387\\uff08Data Rate\\uff09** | bits/second\\uff08bps\\uff09 | \\u7bc0\\u9ede\\u5728\\u5a92\\u4ecb\\u4e0a\\u50b3\\u9001\\u8cc7\\u6599\\u7684\\u901f\\u7387\\u3002 |\\n    \\n    <aside>\\n    \\ud83d\\udca1\\n    \\n    **\\u70ba\\u4ec0\\u9ebc\\u8981\\u6709\\u300c\\u6700\\u5c0f\\u5e40\\u9577\\u300d\\uff1f\\uff08CSMA/CD \\u534a\\u96d9\\u5de5\\u4e59\\u592a\\u7db2\\uff09**\\n    \\n    \\u6015\\u4f86\\u4e0d\\u53ca\\u6aa2\\u6e2c\\u5230\\u6536\\u65b9\\u767c\\u4f86\\u7684\\u78b0\\u649e\\n    \\n    \\u5728 CSMA/CD \\u4e2d\\uff0c\\u4e3b\\u6a5f\\u300c\\u908a\\u767c\",\n        \"match_position\": {\n          \"start\": 17923,\n          \"end\": 17930\n        }\n      },\n      {\n        \"context\": \"[0,2^m-1]$ \\u96a8\\u6a5f\\u9078 $m=\\\\min(k,10)$ \\u500b\\u6642\\u9699\\uff08\\u6bcf\\u9699 512 bit-times\\uff09\\uff0c**\\u7b2c 16 \\u6b21**\\u4ecd\\u78b0\\u649e \\u21d2 **\\u653e\\u68c4**\\u672c\\u5e40\\u3001\\u4e0a\\u5831\\u4e0a\\u5c64\\uff08\\u7db2\\u8def\\u5c64/\\u4e3b\\u6a5f\\uff09\\u3002\\n    \\n    <aside>\\n    \\ud83d\\udca1\\n    \\n    ex\\n    \\n    ![image.png](assets/image%2011.png)\\n    \\n    \\u7b54\\u6848\\uff1aB. 15.36 \\u03bcs\\n    \\n    \\u7406\\u7531\",\n        \"match_position\": {\n          \"start\": 18967,\n          \"end\": 18974\n        }\n      },\n      {\n        \"context\": \"\\u52d5\\u5931\\u6548\\uff0c\\u89e3\\u6c7a\\u88dd\\u7f6e**\\u62d4\\u7dda/\\u63db\\u57e0**\\u5c0e\\u81f4\\u8868\\u9805\\u904e\\u671f\\u7684\\u554f\\u984c\\u3002\\n4. **\\u5373\\u63d2\\u5373\\u7528**\\uff1a\\u9760\\u300c\\u5b78\\u7fd2 + \\u8001\\u5316\\u300d\\uff0c\\u62d3\\u64b2\\u8b8a\\u66f4\\u5f8c\\u53ef\\u81ea\\u52d5\\u6536\\u6582\\u3002\\n\\n> \\u5c0f\\u7d50\\uff1a\\u5b78\\u4f86\\u6e90\\u3001\\u67e5\\u76ee\\u7684\\u3001\\u672a\\u77e5\\u5c31\\u6cdb\\u6d2a\\u3001\\u540c\\u57e0\\u4e0d\\u56de\\u9001\\u3001\\u8868\\u9805\\u6703\\u8001\\u5316\\u3002\\n> \\n\\n<aside>\\n\\ud83d\\udca1\\n\\n---\\n\\n## \\ud83e\\udde9 \\u4e00\\u3001\\u4ea4\\u63db\\u6a5f\\u7684\\u6838\\u5fc3\\u529f\\u80fd\\n\\n\\u4e59\\u592a\\u7db2\\u4ea4\\u63db\\u6a5f\\u4e3b\\u8981\\u505a\\u4e09\\u4ef6\\u4e8b\\uff1a\\n\\n| \\u529f\\u80fd | \\u8aaa\\u660e |\\n| --- | --- |\\n| **\\u5b78\\u7fd2\\uff08Learning\\uff09** | \\u5efa\\u7acb MAC \\u4f4d\\u5740\\u8868\",\n        \"match_position\": {\n          \"start\": 35589,\n          \"end\": 35596\n        }\n      },\n      {\n        \"context\": \"\\u670d\\u5668 | \\u6539\\u300c\\u76ee\\u7684 IP\\u300d |\\n    \\n    ---\\n    \\n    \\ud83e\\udde9 **\\u53e3\\u8a23**\\n    \\n    > \\u300c\\u5167\\u51fa\\u5916\\u9760 SNAT\\uff0c\\u81ea\\u5916\\u9032\\u9760 DNAT\\uff1b\\u51fa\\u7ad9\\u81ea\\u52d5\\u3001\\u5165\\u7ad9\\u624b\\u52d5\\u3002\\u300d\\n    > \\n\\n<aside>\\n\\ud83d\\udca1\\n\\n# \\u6838\\u5fc3\\u672f\\u8bed\\n\\n- **\\u516c\\u7f51 IP\\uff08\\u5916\\u7f51 IP\\uff09**\\uff1aISP \\u5206\\u914d\\uff0c\\u5168\\u7403\\u552f\\u4e00\\uff0c\\u7528\\u4e8e\\u5bf9\\u5916\\u901a\\u4fe1\\u3002\\n- **###\\u79c1\\u6709 IP\\uff08\\u5185\\u7f51 IP\\uff09**\\uff08RFC1918\\uff0c\\u53ea\\u80fd\\u5728\\u5c40\\u57df\\u7f51\\u7528\\uff0c\\u53ef\\u590d\\u7528\\uff09\\n    -\",\n        \"match_position\": {\n          \"start\": 58152,\n          \"end\": 58159\n        }\n      },\n      {\n        \"context\": \"\\u3001800\\u2013999 \\u672a\\u5230\\uff0c\\u5373\\u4f7f\\u5148\\u6536 1000\\u20131799\\uff0c\\u4ecd\\u56de **ACK=800**\\uff08\\u4e0d\\u8de8\\u7f3a\\u53e3\\uff09\\u3002\\n- **RWND**\\uff1a`\\u5f9e ACK \\u8d77\\u6211\\u9084\\u80fd\\u6536 N \\u4f4d\\u5143\\u7d44` \\u2192 \\u6c7a\\u5b9a\\u767c\\u9001\\u7aef**\\u53ef\\u767c\\u9001\\u5340**\\u9577\\u5ea6\\u3002\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n# \\u7de9\\u885d\\u5340\\u8207\\u8996\\u7a97\\n\\n![image.png](assets/image%2071.png)\\n\\n- \\u6bcf\\u500b\\u9023\\u7dda\\u5169\\u7aef\\u5404\\u6709\\uff1a\\n    - **\\u767c\\u9001\\u7de9\\u885d\\u5340**\\uff1a\\u61c9\\u7528\\u7a0b\\u5f0f\\u5beb\\u5165\\u5f85\\u50b3\\u8cc7\\u6599 \\u2192 TCP \\u4f9d\\u5e8f\\u7d44\",\n        \"match_position\": {\n          \"start\": 90842,\n          \"end\": 90849\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8cc7\\u6599\\u7d50\\u69cb/\\u67e5\\u627e.md\",\n    \"score\": -124.2233,\n    \"matches\": [\n      {\n        \"context\": \" else {\\n            high = pos - 1; // \\u76ee\\u6a19\\u503c\\u5728\\u5de6\\u5074\\n        }\\n    }\\n    \\n    return -1;  // \\u672a\\u627e\\u5230\\u76ee\\u6a19\\u503c\\n}\\n```\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**Time Complexity**\\n\\n---\\n\\n- **\\u5e73\\u5747/\\u671f\\u671b**\\uff08\\u9375\\u5206\\u5e03\\u8fd1**\\u5747\\u52fb**\\uff09\\uff1a$\\\\mathbf{O(\\\\log\\\\log n)}$\\n- **\\u6700\\u58de**\\uff08\\u5206\\u5e03**\\u6975\\u4e0d\\u5747\\u52fb**\\u6216\",\n        \"match_position\": {\n          \"start\": 1634,\n          \"end\": 1641\n        }\n      },\n      {\n        \"context\": \"\\uff1b\\u547d\\u4e2d\\u6216\\u5ba3\\u544a\\u5931\\u6557\\u3002\\n\\n**\\u6027\\u8cea\\u5206\\u6790**\\n\\n\\u5728$s=\\\\sqrt{n}$\\uff0cASL\\u7684\\u6700\\u5c0f\\u503c\\u70ba $\\\\sqrt{n}+1$\\n\\n![image.png](assets/image%2049.png)\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u4e8c\\u3001\\u67e5\\u627e\\u6548\\u7387\\u5206\\u6790\\uff08ASL\\uff09**\\n\\n\\u8a2d\\u7e3d\\u8a18\\u9304\\u6578 **n**\\uff0c\\u5206\\u6210 **b** \\u584a\\uff0c\\u5e73\\u5747\\u6bcf\\u584a **m = n/b**\\u3002\\n\\n**\\u60c5\\u6cc1 A\\uff1a\\u7d22\\u5f15\\u8868\\u7528\\u9806\\u5e8f\\u6383\\u63cf**\\n\\n- **\\u6210\\u529f**\\uff1a $ASL_\",\n        \"match_position\": {\n          \"start\": 6997,\n          \"end\": 7004\n        }\n      },\n      {\n        \"context\": \"indMin(Node* root) {\\n    while (root->left != NULL) root = root->left;\\n    return root;\\n}\\n```\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u67e5\\u627e\\u6548\\u7387\\u5206\\u6790**\\n\\n---\\n\\n**\\u770b\\u5728\\u7b2c\\u5e7e\\u5c64\\u5c31\\u53ef\\u77e5\\u9053\\u6bd4\\u5c0d\\u5e7e\\u6b21**\\n\\n- **\\u82e5\\u662f\\u5931\\u6557\\u7bc0\\u9ede\\u5247\\u7b97\\u5728\\u6700\\u5f8c\\u4e00\\u500b\\u6bd4\\u8f03\\u7684\\u7bc0\\u9ede\\u90a3\\u5c64**\\n    \\n    ex :11    \\u6bd4\\u5c0d\\u8def\\u5f91 50\\u219226\\u219221\",\n        \"match_position\": {\n          \"start\": 10348,\n          \"end\": 10355\n        }\n      },\n      {\n        \"context\": \"L\\uff08\\u5916\\u90e8/\\u7a7a\\uff09\\u8449**\\u8996\\u70ba\\u9ed1\\u3002\\n4. **\\u4e0d\\u7d05\\u7d05**\\uff1a\\u4efb\\u4f55\\u8def\\u5f91\\u4e0a**\\u4e0d\\u8a31\\u76f8\\u9130\\u5169\\u500b\\u7d05**\\uff08\\u7d05\\u7bc0\\u9ede\\u7684\\u7236\\u8207\\u5b50\\u90fd\\u70ba\\u9ed1\\uff09\\u3002\\n5. **\\u9ed1\\u8def\\u540c**\\uff1a\\u5f9e\\u4efb\\u4e00\\u7bc0\\u9ede\\u5230\\u4efb\\u4e00 NIL \\u7684**\\u9ed1\\u7bc0\\u9ede\\u6578\\u76f8\\u540c**\\uff08\\u9ed1\\u9ad8\\u4e00\\u81f4\\uff09\\u3002\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n\\u7d05\\u9ed1\\u6a39\\u7684\\u300c\\u5e73\\u8861\\u300d\\u4e0d\\u662f\\u50cf AVL \\u90a3\\u7a2e\\u56b4\\u683c\\u9ad8\\u5ea6\\u5dee \\u22641\\uff0c\\u800c\\u662f\\u6eff\\u8db3\\u7d05\\u9ed1\\u6027\\u8cea\\uff0c\\u8b93**\\u6700\\u9577\\u8def\\u5f91 \\u2264 \\u6700\\u77ed\\u8def\\u5f91\\u7684 2 \\u500d**\\n\\n</aside>\\n\\n> \\u5c0f\\u63d0\\u9192\\uff1a\\u7b2c 5 \\u9ede\\u88e1\\u7684\\u300cLeaf\\u300d\\u6307\\u5916\\u90e8 NIL\",\n        \"match_position\": {\n          \"start\": 13408,\n          \"end\": 13415\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8cc7\\u6599\\u7d50\\u69cb/\\u641c\\u7d22\\u6a39.md\",\n    \"score\": -56.014599999999994,\n    \"matches\": [\n      {\n        \"context\": \"indMin(Node* root) {\\n    while (root->left != NULL) root = root->left;\\n    return root;\\n}\\n```\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u67e5\\u627e\\u6548\\u7387\\u5206\\u6790**\\n\\n---\\n\\n**\\u770b\\u5728\\u7b2c\\u5e7e\\u5c64\\u5c31\\u53ef\\u77e5\\u9053\\u6bd4\\u5c0d\\u5e7e\\u6b21**\\n\\n- **\\u82e5\\u662f\\u5931\\u6557\\u7bc0\\u9ede\\u5247\\u7b97\\u5728\\u6700\\u5f8c\\u4e00\\u500b\\u6bd4\\u8f03\\u7684\\u7bc0\\u9ede\\u90a3\\u5c64**\\n    \\n    ex :11    \\u6bd4\\u5c0d\\u8def\\u5f91 50\\u219226\\u219221\",\n        \"match_position\": {\n          \"start\": 2782,\n          \"end\": 2789\n        }\n      },\n      {\n        \"context\": \"L\\uff08\\u5916\\u90e8/\\u7a7a\\uff09\\u8449**\\u8996\\u70ba\\u9ed1\\u3002\\n4. **\\u4e0d\\u7d05\\u7d05**\\uff1a\\u4efb\\u4f55\\u8def\\u5f91\\u4e0a**\\u4e0d\\u8a31\\u76f8\\u9130\\u5169\\u500b\\u7d05**\\uff08\\u7d05\\u7bc0\\u9ede\\u7684\\u7236\\u8207\\u5b50\\u90fd\\u70ba\\u9ed1\\uff09\\u3002\\n5. **\\u9ed1\\u8def\\u540c**\\uff1a\\u5f9e\\u4efb\\u4e00\\u7bc0\\u9ede\\u5230\\u4efb\\u4e00 NIL \\u7684**\\u9ed1\\u7bc0\\u9ede\\u6578\\u76f8\\u540c**\\uff08\\u9ed1\\u9ad8\\u4e00\\u81f4\\uff09\\u3002\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n\\u7d05\\u9ed1\\u6a39\\u7684\\u300c\\u5e73\\u8861\\u300d\\u4e0d\\u662f\\u50cf AVL \\u90a3\\u7a2e\\u56b4\\u683c\\u9ad8\\u5ea6\\u5dee \\u22641\\uff0c\\u800c\\u662f\\u6eff\\u8db3\\u7d05\\u9ed1\\u6027\\u8cea\\uff0c\\u8b93**\\u6700\\u9577\\u8def\\u5f91 \\u2264 \\u6700\\u77ed\\u8def\\u5f91\\u7684 2 \\u500d**\\n\\n</aside>\\n\\n> \\u5c0f\\u63d0\\u9192\\uff1a\\u7b2c 5 \\u9ede\\u88e1\\u7684\\u300cLeaf\\u300d\\u6307\\u5916\\u90e8 NIL\",\n        \"match_position\": {\n          \"start\": 7834,\n          \"end\": 7841\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8a08\\u7b97\\u6a5f\\u6982\\u8ad6/\\u8a08\\u7b97\\u6a5f\\u7d44\\u6210.md\",\n    \"score\": -33.392,\n    \"matches\": [\n      {\n        \"context\": \"*\\u8a18\\u61b6\\u9ad4\\uff08Memory Unit\\uff09**\\n    - \\u5132\\u5b58\\u7a0b\\u5f0f\\u8207\\u8cc7\\u6599\\uff08\\u6307\\u4ee4\\u8207\\u6578\\u64da\\u6df7\\u5408\\u5b58\\u653e\\uff09\\n    - \\u5206\\u70ba **\\u4e3b\\u8a18\\u61b6\\u9ad4\\uff08RAM\\u3001ROM\\uff09** \\u8207 **\\u5feb\\u53d6\\u8a18\\u61b6\\u9ad4\\uff08Cache\\uff09**\\n    \\n    <aside>\\n    \\ud83d\\udca1\\n    \\n    **\\u4e3b\\u5b58\\u5668**\\n    \\n    1. **MAR\\uff08Memory Address Register\\uff09**\\uff1a\\u5b58\\u653e\\u8981\\u5b58\\u53d6\\u7684\\u8a18\\u61b6\\u9ad4\\u4f4d\\u5740\\u3002\\n    2. **MDR\\uff08Memo\",\n        \"match_position\": {\n          \"start\": 554,\n          \"end\": 561\n        }\n      },\n      {\n        \"context\": \"\\u8a00\\u4e26\\u7acb\\u5373\\u57f7\\u884c\\n        - \\u4e00\\u53e5\\u4e00\\u53e5\\u7ffb\\u8b6f\\uff0c\\u57f7\\u884c\\u6548\\u7387\\u8f03\\u4f4e\\n        \\n        ![program.png](assets/program.png)\\n        \\n        <aside>\\n        \\ud83d\\udca1\\n        \\n        - **1. \\u7f16\\u8bd1\\u7a0b\\u5e8f (Compiler)\\uff1a**\\n            - \\u7f16\\u8bd1\\u7a0b\\u5e8f\\uff08\\u7f16\\u8bd1\\u5668\\uff09\\u3002\\u5c06\\u9ad8\\u7ea7\\u8bed\\u8a00\\u7a0b\\u5e8f\\u7ffb\\u8bd1\\u6210\\u6c47\\u7f16\\u8bed\\u8a00\\u6216\\u673a\\u5668\\u8bed\\u8a00\\u7a0b\\u5e8f\",\n        \"match_position\": {\n          \"start\": 3684,\n          \"end\": 3691\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u4f5c\\u696d\\u7cfb\\u7d71/\\u6587\\u4ef6\\u7ba1\\u7406.md\",\n    \"score\": -26.5887,\n    \"matches\": [\n      {\n        \"context\": \"(assets/image%2034.png)\\n\\n**\\u8bb0\\u5f55\\u5728 [FCB](\\u6587\\u4ef6\\u7ba1\\u7406.md)**\\uff1a\\u8d77\\u59cb\\u5757\\u53f7 + \\u957f\\u5ea6\\uff08\\u5757\\u6570\\uff09\\n\\n**\\u5730\\u5740\\u53d8\\u6362**\\uff1a`\\u7269\\u7406\\u5757\\u53f7 = \\u8d77\\u59cb\\u5757\\u53f7 + \\u903b\\u8f91\\u5757\\u53f7`\\uff08O(1)\\uff09\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u4f18\\u70b9**\\n\\n- \\u2705 \\u652f\\u6301**\\u987a\\u5e8f\\u8bbf\\u95ee + \\u968f\\u673a\\u8bbf\\u95ee**\\uff08\\u76f4\\u63a5\\u8bbf\\u95ee\\u6700\\u5feb\\uff09\\n- \\u2705 **\\u987a\\u5e8f\\u8bfb\\u5199\\u6700\\u5feb**\\uff08\\u78c1\\u5934\\u79fb\\u52a8\\u8ddd\\u79bb\\u6700\\u5c0f\\uff09\\n\\n**\\u7f3a\\u70b9**\\n\\n- \\u274c **\\u6269\\u5c55\\u56f0\\u96be**\\uff08\\u540e\\u9762\\u4e0d\\u8fde\\u7eed\\u5c31\\u8981\\u6574\\u4f53\\u642c\",\n        \"match_position\": {\n          \"start\": 9468,\n          \"end\": 9475\n        }\n      },\n      {\n        \"context\": \"B**\\uff1a\\u8d77\\u59cb\\u5757\\u53f7\\uff08\\u5e38\\u914d\\u5408\\u4fdd\\u5b58\\u7ed3\\u675f\\u5757\\u53f7\\uff09\\n\\n**\\u627e\\u7b2c i \\u4e2a\\u903b\\u8f91\\u5757**\\uff1a\\u5fc5\\u987b\\u4ece\\u5934**\\u987a\\u5e8f\\u8ddf\\u94fe i \\u6b21**\\n\\n\\u2192 **\\u4ec5\\u652f\\u6301\\u987a\\u5e8f\\u8bbf\\u95ee**\\uff1b\\u8bbf\\u95ee\\u7b2c i \\u5757\\u9700 **i+1 \\u6b21\\u78c1\\u76d8 I/O**\\uff08\\u5757\\u5757\\u90fd\\u8981\\u8bfb\\uff09\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u4f18\\u70b9**\\uff1a\\u6613\\u6269\\u5c55\\u3001\\u65e0\\u5916\\u90e8\\u788e\\u7247\\n\\n**\\u7f3a\\u70b9**\\uff1a\\u968f\\u673a\\u8bbf\\u95ee\\u5dee\\uff1b\\u6bcf\\u5757\\u6709\\u6307\\u9488\\u5f00\\u9500\\uff1b\\u6307\\u9488\\u635f\\u574f\\u98ce\\u9669\\n\\n</aside>\\n\\n> \\u9898\\u76ee\\u53ea\\u5199\\u201c\\u94fe\\u63a5\\u5206\\u914d\\u201d\\u672a\\u6307\\u660e\\u662f\\u54ea\\u79cd\\u65f6\\uff0c\\u9ed8\\u8ba4\\u662f\\u9690\\u5f0f\\u94fe\\u63a5\\uff08\\u9ad8\\u9891\\u9677\\u9631\\uff09\\u3002\\n> \\n\",\n        \"match_position\": {\n          \"start\": 9880,\n          \"end\": 9887\n        }\n      },\n      {\n        \"context\": \"\\u8d77\\u59cb\\u5757\\u53f7\\n\\n**\\u627e\\u7b2c i \\u5757**\\uff1a\\u5728\\u5185\\u5b58\\u4e2d\\u7684 FAT \\u91cc\\u6cbf\\u94fe\\u8d70 i \\u6b21\\uff08**\\u4e0d\\u8bfb\\u76d8**\\uff09\\uff0c\\u6700\\u540e**\\u53ea\\u8bfb\\u76ee\\u6807\\u6570\\u636e\\u5757 1 \\u6b21**\\n\\n\\u2192 **\\u987a\\u5e8f + \\u968f\\u673a\\u8bbf\\u95ee\\u90fd\\u53ef**\\uff08\\u968f\\u673a\\u8bbf\\u95ee\\u6bd4\\u9690\\u5f0f\\u5feb\\u5f88\\u591a\\uff09\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u4f18\\u70b9**\\uff1a\\u6613\\u6269\\u5c55\\u3001\\u65e0\\u5916\\u90e8\\u788e\\u7247\\u3001\\u56e0 FAT \\u5728\\u5185\\u5b58\\u91cc**\\u67e5\\u627e\\u5feb**\\n\\n**\\u7f3a\\u70b9**\\uff1aFAT \\u53ef\\u80fd\\u5f88\\u5927\\uff08\\u4f46\\u53ea\\u5360\\u5185\\u5b58\\u4e00\\u6b21\\uff09\\n\\n</aside>\\n\\n**\\u5178\\u578b\\u8003\\u70b9**\\uff1a\\n\\n- \\u201cFAT \\u662f\\u5426\\u6bcf\\u4e2a\\u6587\",\n        \"match_position\": {\n          \"start\": 10227,\n          \"end\": 10234\n        }\n      },\n      {\n        \"context\": \"\\n\\n**FCB**\\uff1a\\u7d22\\u5f15\\u5757\\u53f7\\uff08\\u6216\\u9876\\u7ea7\\u7d22\\u5f15\\u7ed3\\u6784\\uff09\\n\\n**\\u8bbf\\u95ee\\u7b2c i \\u5757**\\n\\n- \\u5355\\u5c42\\u7d22\\u5f15\\uff1a\\u8bfb\\u7d22\\u5f15\\u5757\\uff081 \\u6b21\\uff09\\u2192 \\u67e5\\u5230\\u7269\\u7406\\u5757\\u53f7 \\u2192 \\u8bfb\\u6570\\u636e\\u5757\\uff081 \\u6b21\\uff09= **2 \\u6b21 I/O**\\n- \\u591a\\u5c42/\\u6df7\\u5408\\uff1a\\u89c1\\u4e0b\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u4f18\\u70b9**\\uff1a\\u2705 \\u652f\\u6301\\u968f\\u673a\\u8bbf\\u95ee\\uff1b\\u2705 \\u6269\\u5c55\\u5bb9\\u6613\\uff08\\u52a0\\u8868\\u9879/\\u65b0\\u5757\\uff09\\n\\n**\\u7f3a\\u70b9**\\uff1a\\u274c \\u7d22\\u5f15\\u8868\\u5360\\u7a7a\\u95f4\\uff08\\u4f46\\u53ef\\u7528\\u591a\\u5c42/\\u6df7\\u5408\\u4f18\\u5316\\uff09\\n\\n</aside>\\n\\n## \\u7d22\\u5f15\\u8868\\u88c5\\u4e0d\\u4e0b\\u7684\\u4e09\\u79cd\\u65b9\\u6848\\n\\n### a) \\u94fe\",\n        \"match_position\": {\n          \"start\": 10630,\n          \"end\": 10637\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u4f5c\\u696d\\u7cfb\\u7d71/\\u9032\\u7a0b\\u8207\\u7dda\\u7a0b.md\",\n    \"score\": -25.058,\n    \"matches\": [\n      {\n        \"context\": \"- \\u4e3b\\u8981\\u5167\\u5bb9\\uff1a\\n    - \\u9032\\u7a0b\\u8b58\\u5225\\u8cc7\\u8a0a\\uff08PID\\uff09\\n    - \\u8655\\u7406\\u5668\\u72c0\\u614b\\uff08\\u66ab\\u5b58\\u5668\\u3001\\u7a0b\\u5f0f\\u8a08\\u6578\\u5668\\uff09\\n    - \\u8abf\\u5ea6\\u8cc7\\u8a0a\\uff08\\u512a\\u5148\\u7d1a\\u3001\\u6392\\u7a0b\\u72c0\\u614b\\uff09\\n    - \\u8a18\\u61b6\\u9ad4\\u7ba1\\u7406\\u8cc7\\u8a0a\\n    - I/O \\u72c0\\u614b\\u8cc7\\u8a0a\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**Context Switching\\uff08\\u4e0a\\u4e0b\\u6587\\u5207\\u63db\\uff09**\\n\\n---\\n\\n**\\u4ec0\\u9ebc\\u662f\\u300c\\u4e0a\\u4e0b\\u6587\\u300d**\\n\\n- **\\u4e0a\\u4e0b\\u6587**\\uff1d\\u67d0\\u9032\\u7a0b/\\u7dda\\u7a0b\\u7576\\u4e0b\\u7684\\u904b\\u884c\\u72c0\\u614b\\uff1a\\u901a\\u7528\\u66ab\\u5b58\\u5668\\u3001**PC**\\u3001**SP**\\u3001\\u7a0b\\u5f0f\",\n        \"match_position\": {\n          \"start\": 1274,\n          \"end\": 1281\n        }\n      },\n      {\n        \"context\": \"\\u6703\\u88ab\\u91cb\\u653e\\n        - \\u7236\\u9032\\u7a0b\\u9700\\u547c\\u53eb `wait()` \\u6216 `waitpid()` \\u56de\\u6536\\u5b50\\u9032\\u7a0b\\u8cc7\\u6e90\\uff08\\u5426\\u5247\\u5f62\\u6210 **\\u6bad\\u5c4d\\u9032\\u7a0b Zombie**\\uff09\\n            \\n            <aside>\\n            \\ud83d\\udca1\\n            \\n            **zombie(\\u6bad\\u5c4d) & orphan(\\u5b64\\u5152)**\\n            \\n            **zomb\",\n        \"match_position\": {\n          \"start\": 3213,\n          \"end\": 3220\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8cc7\\u6599\\u7d50\\u69cb/\\u7dda\\u6027\\u8868-Linear List.md\",\n    \"score\": -21.192800000000002,\n    \"matches\": [\n      {\n        \"context\": \"\\u53ef\\u52d5\\u614b\\u914d\\u7f6e\\uff0c\\u64f4\\u5c55\\u6027\\u4f73\\u3002\\n- \\u53ef\\u4f9d\\u64da\\u5be6\\u969b\\u9700\\u6c42\\u589e\\u9577\\uff08\\u642d\\u914d `realloc` \\u53ef\\u5be6\\u73fe\\u589e\\u5bb9\\uff09\\u3002\\n\\n**\\u26a0\\ufe0f \\u7f3a\\u9ede\\uff1a**\\n\\n- \\u9700\\u624b\\u52d5\\u91cb\\u653e\\u8a18\\u61b6\\u9ad4\\uff08\\u7528 `free(L.data)`\\uff09\\uff0c\\u5426\\u5247\\u6703\\u7522\\u751f\\u8a18\\u61b6\\u9ad4\\u6d29\\u6f0f\\u3002\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\ud83d\\udcda \\u5ef6\\u4f38\\u77e5\\u8b58**\\n\\n**\\ud83d\\udd27 \\u4e00\\u3001\\u52d5\\u614b\\u589e\\u5bb9\\u7b56\\u7565**\\n\\n\\u82e5\\u63d2\\u5165\\u5143\\u7d20\\u6642\\u7a7a\\u9593\\u4e0d\\u8db3\\uff0c\\u53ef\\u9032\\u884c **\\u52d5\\u614b\\u64f4\\u5bb9**\\uff08\\u5e38\\u898b\\u7b56\\u7565\\u70ba\\u300c\\u500d\\u589e\\u6cd5\\u300d\\uff09\\uff1a\\n\\n```c\\nc\\nvoid IncreaseSize(Sq\",\n        \"match_position\": {\n          \"start\": 1472,\n          \"end\": 1479\n        }\n      },\n      {\n        \"context\": \"        if (L.data[i] == e)\\n            return i + 1; // \\u56de\\u50b3\\u908f\\u8f2f\\u4f4d\\u7f6e\\uff081-based\\uff09\\n    }\\n    return 0;\\n}\\n```\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u50b3\\u503c\\uff08by value\\uff09** vs **\\u50b3\\u53c3\\u8003\\uff08by reference\\uff09**\\u3002\\n\\n| \\u5beb\\u6cd5 | \\u542b\\u7fa9 | \\u662f\\u5426\\u4fee\\u6539\\u5230\\u539f\\u59cb\\u8cc7\\u6599 | \\u6548\\u7387 |\\n| --- | --- | --- | --\",\n        \"match_position\": {\n          \"start\": 3307,\n          \"end\": 3314\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8a08\\u7b97\\u6a5f\\u6982\\u8ad6/\\u6578\\u64da\\u8868\\u793a\\u548c\\u904b\\u7b97.md\",\n    \"score\": -17.086,\n    \"matches\": [\n      {\n        \"context\": \"\\\\times r^{n-1} + \\\\dots + k_1 \\\\times r^1 + k_0 \\\\times r^0 + k_{-1} \\\\times r^{-1} + \\\\dots$\\n    \\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u9032\\u5236\\u8f49\\u63db**\\n\\nr \\u9032\\u5236 \\u2192 \\u5341\\u9032\\u5236\\n\\n- \\u5c07 r \\u9032\\u5236\\u6578\\u7684\\u6bcf\\u4f4d\\u6578\\u78bc\\u4e58\\u4ee5\\u8a72\\u4f4d\\u7684\\u6b0a\\u503c\\uff08r \\u7684\\u51aa\\u6b21\\uff09\\u5f8c\\u76f8\\u52a0\\n\\n\\u4e8c\\u9032\\u5236 \\u2194 \\u516b\\u9032\\u5236\\n\\n- \\u6bcf **3 \\u4f4d\\u4e8c\\u9032\\u5236** \\u5c0d\\u61c9 1 \\u4f4d\\u516b\\u9032\\u5236\\n\\n\\u4e8c\\u9032\\u5236\",\n        \"match_position\": {\n          \"start\": 264,\n          \"end\": 271\n        }\n      },\n      {\n        \"context\": \"\\u5236 \\u2194 \\u5341\\u516d\\u9032\\u5236\\n\\n- \\u6bcf **4 \\u4f4d\\u4e8c\\u9032\\u5236** \\u5c0d\\u61c9 1 \\u4f4d\\u5341\\u516d\\u9032\\u5236\\n    \\n    ![image.png](assets/image%201.png)\\n    \\n</aside>\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n### \\u5341\\u9032\\u5236 \\u2194 r \\u9032\\u5236\\n\\n**\\u5341\\u9032\\u5236\\u6574\\u6578\\u90e8\\u5206 \\u2192 r \\u9032\\u5236**\\n\\n- **\\u9664\\u57fa\\u53d6\\u9918\\u6cd5**\\uff1a\\u4e0d\\u65b7\\u9664\\u4ee5 r\\uff0c\\u4f9d\\u6b21\\u53d6\\u9918\\u6578\\uff08\\u4f4e\\u4f4d\\u5728\\u524d\\uff0c\\u9ad8\\u4f4d\\u5728\\u5f8c\\uff09\\n\\n![image.png](assets/cc\",\n        \"match_position\": {\n          \"start\": 470,\n          \"end\": 477\n        }\n      },\n      {\n        \"context\": \"{\\u771f\\u5be6\\u503c} + K \\\\quad \\\\text{\\uff08K = 2}^{n-1})$\\n    \\n- \\u512a\\u9ede\\uff1a\\n    - \\u5c07\\u6709\\u865f\\u6578\\u8f49\\u70ba\\u7121\\u865f\\u8868\\u793a\\uff08\\u65b9\\u4fbf\\u6bd4\\u8f03\\u5927\\u5c0f\\uff09\\n    - \\u8207\\u88dc\\u78bc\\u642d\\u914d\\uff0c\\u69cb\\u6210 IEEE \\u6d6e\\u9ede\\u683c\\u5f0f\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n **\\u908f\\u8f2f\\u79fb\\u4f4d vs \\u7b97\\u8853\\u79fb\\u4f4d   &\\u6ea2\\u4f4d\\u5224\\u65b7**\\n\\n \\u908f\\u8f2f\\u79fb\\u4f4d vs \\u7b97\\u8853\\u79fb\\u4f4d\\n\\n| \\u985e\\u578b | \\u5de6\\u79fb | \\u53f3\\u79fb | \\u5de6\\u5074\\u88dc\\u4f4d | \\u9069\\u7528\\u65bc |\\n| --- | --- | --- | ---\",\n        \"match_position\": {\n          \"start\": 1708,\n          \"end\": 1715\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u7db2\\u8def\\u7b46\\u8a18/\\u932f\\u8aa4\\u8003\\u984c\\u56de\\u9867.md\",\n    \"score\": -8.6965,\n    \"matches\": [\n      {\n        \"context\": \"[0,2^m-1]$ \\u96a8\\u6a5f\\u9078 $m=\\\\min(k,10)$ \\u500b\\u6642\\u9699\\uff08\\u6bcf\\u9699 512 bit-times\\uff09\\uff0c**\\u7b2c 16 \\u6b21**\\u4ecd\\u78b0\\u649e \\u21d2 **\\u653e\\u68c4**\\u672c\\u5e40\\u3001\\u4e0a\\u5831\\u4e0a\\u5c64\\uff08\\u7db2\\u8def\\u5c64/\\u4e3b\\u6a5f\\uff09\\u3002\\n    \\n    <aside>\\n    \\ud83d\\udca1\\n    \\n    ex\\n    \\n    ![image.png](assets/image%2011.png)\\n    \\n    \\u7b54\\u6848\\uff1aB. 15.36 \\u03bcs\\n    \\n    \\u7406\\u7531\",\n        \"match_position\": {\n          \"start\": 2939,\n          \"end\": 2946\n        }\n      },\n      {\n        \"context\": \"\\u5927\\u9000\\u907f\\uff1d3\\u00d75.12 \\u03bcs\\uff1d**15.36 \\u03bcs**\\u3002\\n    \\n    </aside>\\n    \\n    ![image.png](assets/image%2092.png)\\n    \\n    <aside>\\n    \\ud83d\\udca1\\n    \\n    ans\\n    \\n    \\u5df2\\u77e5\\uff1a\\n    \\n    - DIFS = 128 \\u03bcs\\n    - SIFS = 28 \\u03bcs\\n    - RTS \\u50b3\\u8f38\\u5ef6\\u9072 = 3 \\u03bcs\\n\",\n        \"match_position\": {\n          \"start\": 3312,\n          \"end\": 3319\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u7db2\\u8def\\u7b46\\u8a18/\\u8a08\\u7b97\\u6a5f\\u7db2\\u8def\\u7684\\u6982\\u5ff5.md\",\n    \"score\": -3.5056999999999996,\n    \"matches\": [\n      {\n        \"context\": \"*\\uff1a\\n\\n**\\u26a0\\ufe0f\\u6bcf\\u7d93\\u904e\\u4e00\\u500b\\u4fe1\\u9053\\u5c31\\u6703\\u591a\\u4e00\\u6b21[\\u50b3\\u9001/\\u767c\\u9001\\u6642\\u5ef6+\\u50b3\\u64ad\\u6642\\u5ef6]**\\n\\n$$\\n\\u7e3d\\u6642\\u5ef6{\\u7e3d\\u6642\\u5ef6} = d_{trans} + d_{prop} + d_{queue} + d_{proc}\\n$$\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u6642\\u5ef6\\u5e36\\u5bec\\u7a4d**\\n\\n**\\u6642\\u5ef6\\u5e36\\u5bec\\u7a4d=\\u50b3\\u64ad\\u6642\\u5ef6\\uff08s\\uff09\\u00d7\\u901a\\u9053\\u5e36\\u5bec\\uff08bps\\uff09**\\n\\n\\u610f\\u7fa9\\u8207\\u7528\\u9014\\uff1a\\n\\n- \\u8868\\u793a\\uff1a**\\u901a\\u9053\\u4e2d\\u53ef\\u300c\\u5bb9\\u7d0d\\u300d\\u591a\\u5c11\\u8cc7\\u6599\\u6b63\\u5728\\u50b3\\u9001**\\n- \\u5c31\\u50cf\\u300c\\u6c34\\u7ba1\\u9577\\u5ea6 \\u00d7 \\u6d41\\u901f = \\u540c\\u6642\\u5b58\\u5728\",\n        \"match_position\": {\n          \"start\": 3054,\n          \"end\": 3061\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8cc7\\u6599\\u7d50\\u69cb/\\u6a39.md\",\n    \"score\": -2.8207,\n    \"matches\": [\n      {\n        \"context\": \"| **\\u5e73\\u8861\\u4e8c\\u5143\\u6a39 (Balanced Tree)** | \\u4efb\\u610f\\u7bc0\\u9ede\\u7684\\u5de6\\u53f3\\u5b50\\u6a39\\u9ad8\\u5ea6\\u5dee\\u4e0d\\u8d85\\u904e1\\u3002 |\\n| **\\u4e8c\\u5143\\u641c\\u5c0b\\u6a39 (BST)** | \\u5c0d\\u4efb\\u4e00\\u7bc0\\u9ede\\uff0c\\u5de6\\u5b50\\u6a39 < \\u7bc0\\u9ede < \\u53f3\\u5b50\\u6a39\\u3002 |\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n### \\u4e8c\\u5143\\u6a39\\u6027\\u8cea\\n\\n---\\n\\n\\u6027\\u8cea 1\\uff1a**\\u7b2c i \\u5c64\\u6700\\u591a\\u6709 `$2^{(i - 1)}$` \\u500b\\u7bc0\\u9ede**\\n\\n- \\u7b2c 1 \\u5c64\\uff1a\\u6700\\u591a `1` \\u500b\\u7bc0\\u9ede\\n- \\u7b2c 2 \\u5c64\\uff1a\\u6700\\u591a `2` \\u500b\\u7bc0\\u9ede\\n- \",\n        \"match_position\": {\n          \"start\": 1502,\n          \"end\": 1509\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u4f5c\\u696d\\u7cfb\\u7d71/\\u64cd\\u4f5c\\u7cfb\\u7d71\\u6982\\u5ff5.md\",\n    \"score\": -2.4017,\n    \"matches\": [\n      {\n        \"context\": \"\\n\\n**\\u72c0\\u614b\\u5207\\u63db**\\n\\n1. **\\u7528\\u6236\\u614b \\u2192 \\u5167\\u6838\\u614b**\\uff1a\\u7531 **\\u4e2d\\u65b7** \\u5f15\\u8d77\\uff0c\\u786c\\u9ad4\\u81ea\\u52d5\\u5b8c\\u6210\\n2. **\\u5167\\u6838\\u614b \\u2192 \\u7528\\u6236\\u614b**\\uff1a\\u7531\\u4e00\\u689d\\u4fee\\u6539 **PSW\\uff08\\u7a0b\\u5e8f\\u72c0\\u614b\\u5b57\\uff09** \\u7684\\u7279\\u6b0a\\u6307\\u4ee4\\u5b8c\\u6210\\n\\n---\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\u5167\\u6838\\u4f5c\\u7528\\u8207\\u7a2e\\u985e**\\n\\n![image.png](assets/image.png)\\n\\n**\\u5927\\u5167\\u6838\\uff08Monolithic Kernel\\uff09 V.S \\u5fae\\u5167\\u6838\\uff08Microkernel\\uff09** \\n\\n\",\n        \"match_position\": {\n          \"start\": 1810,\n          \"end\": 1817\n        }\n      }\n    ]\n  },\n  {\n    \"filename\": \"\\u8cc7\\u6599\\u7d50\\u69cb/\\u93c8\\u5f0f\\u5b58\\u5132.md\",\n    \"score\": -1.6,\n    \"matches\": [\n      {\n        \"context\": \" Node,*LinkList;\\n\\n```\\n\\n![linked_list_labeled.png](assets/0bd5d397-0544-408b-a063-2784be7b4257.png)\\n\\n<aside>\\n\\ud83d\\udca1\\n\\n**\\ud83d\\udcda \\u5ef6\\u4f38\\u77e5\\u8b58**\\n\\n**\\u6578\\u64da\\u985e\\u578b\\u7684\\u91cd\\u547d\\u540d**  \\n\\n **typedef<\\u6578\\u64da\\u985e\\u578b><\\u5225\\u540d>**\\n\\n```csharp\\nstruct LNode{\\n\\t\\tElemType data;\\n\\t\",\n        \"match_position\": {\n          \"start\": 413,\n          \"end\": 420\n        }\n      }\n    ]\n  }\n]"
+            }
+          }
+        }
+      ],
+      "id": "a8518a99-42be-4543-8505-b12e71c665b3"
+    },
+    {
+      "role": "assistant",
+      "content": "好的，我將為您遍歷所有文件，並修正 `<aside>` 區塊的排版，使其符合您提供的範例格式。這將包括：\n1.  在 `💡` 標記後新增一個空行。\n2.  在 `<aside>` 區塊的內容前後加上 `---` 分隔線（如果沒有的話）。\n3.  調整內容中的數學符號和行距，確保格式統一。\n\n請注意，由於文件數量較多，我將分批執行這些修改，並為每個文件提供修改後的內容。\n\n---\n\n### 修正檔案: `網路筆記/網路參考模型.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"網路筆記/網路參考模型.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**乙太網（Ethernet）有線傳輸媒介的命名規則**\n\n✅ 命名格式：\n\n**「速度 + Base + 介質資訊」**\n\n| 名稱 | 傳輸速率 | 傳輸方式 | 傳輸介質 | 傳輸距離\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n簡單理解\n\n1. 各節點有專屬的碼片序列 (像是ID)\n\n規定: 任意相互正交為0 EX: $\\mathbf{a}\\cdot\\mathbf {b}=0$\n\n![image.png](assets/\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**為什麼要有「最小幀長」？（CSMA/CD 半雙工乙太網）**\n\n怕來不及檢測到收方發來的碰撞\n\n在 CSMA/CD 中，主機「邊發\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\nex\n\n![image.png](assets/image%2011.png)\n\n答案：B. 15.36 μs\n\n理由\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n## 🧐 一、交換機的核心功能\n\n乙太網交換機主要做三件事：\n\n| 功能 | 說明 |\n| --- | --- |\n| **學習（Learning）** | 建立 MAC 位址表\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n# 核心術語\n\n- **公網 IP（外網 IP）**：ISP 分配，全球唯一，用於對外通信。\n- **###私有 IP（內網 IP）**（RFC1918，只能在局域網用，可複用）\n    -\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n# 緩衝區與視窗\n\n![image.png](assets/image%2071.png)\n\n- 每個連接兩端各有：\n    - **發送緩衝區**：應用程式寫入待傳資料 → TCP 依序組\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `資料結構/查找.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"資料結構/查找.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**Time Complexity**\n\n---\n\n- **平均/期望**（鍵分佈近**均勻**）：$\\mathbf{O(\\log\\log n)}$\n- **最壞**（分佈**極不均勻**或\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**二、查找效率分析（ASL）**\n\n設總記錄數 **n**，分成 **b** 塊，平均每塊 **m = n/b**。\n\n**情況 A：索引表用順序掃描**\n\n- **成功**： $ASL_\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**查找效率分析**\n\n---\n\n**看在第幾層就知道比對幾次**\n\n- **若是失敗節點則算在最後一個比對的節點那層**\n\n    ex :11    比對路徑 50→26→21\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n紅黑樹的「平衡」不是像 AVL 那種嚴格高度差 ≤1，而是滿足紅黑性質，讓**最長路徑 ≤ 最短路徑的 2 倍**\n\n---\n\n</aside>\n<!-- ... existing content ... -->\n</smtcmp_block>\n\n### 修正檔案: `資料結構/搜索樹.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"資料結構/搜索樹.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**查找效率分析**\n\n---\n\n**看在第幾層就知道比對幾次**\n\n- **若是失敗節點則算在最後一個比對的節點那層**\n\n    ex :11    比對路徑 50→26→21\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n紅黑樹的「平衡」不是像 AVL 那種嚴格高度差 ≤1，而是滿足紅黑性質，讓**最長路徑 ≤ 最短路徑的 2 倍**\n\n---\n\n</aside>\n<!-- ... existing content ... -->\n</smtcmp_block>\n\n### 修正檔案: `計算機概論/計算機組成.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"計算機概論/計算機組成.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**主存器**\n\n1. **MAR（Memory Address Register）**：存放要存取的記憶體位址。\n2. **MDR（Memo\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n- **1. 編譯程序 (Compiler)：**\n    - 編譯程序（編譯器）。將高級語言程序翻譯成彙編語言或機器語言程序\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `作業系統/文件管理.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"作業系統/文件管理.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**優點**\n\n- ✅ 支持**順序訪問 + 隨機訪問**（直接訪問最快）\n- ✅ **順序讀寫最快**（磁頭移動距離最小）\n\n**缺點**\n\n- ❌ **擴展困難**（後面不連續就要整體搬\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**優點**：易擴展、無外部碎片\n\n**缺點**：隨機訪問差；每塊有指針開銷；指針損壞風險\n\n---\n\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**優點**：易擴展、無外部碎片、因 FAT 在內存裡**查找快**\n\n**缺點**：FAT 可能很大（但只占內存一次）\n\n---\n\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**優點**：✅ 支持隨機訪問；✅ 擴展容易（加表項/新塊）\n\n**缺點**：❌ 索引表佔空間（但可用多層/混合優化）\n\n---\n\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `作業系統/進程與線程.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"作業系統/進程與線程.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**Context Switching（上下文切換）**\n\n---\n\n**什麼是「上下文」**\n\n- **上下文**=某進程/線程當下的運行狀態：通用暫存器、**PC**、**SP**、程序\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**zombie(殭屍) & orphan(孤兒)**\n\n**zomb\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `資料結構/線性表-Linear List.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"資料結構/線性表-Linear List.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**📚 延伸知識**\n\n**🛠️ 一、動態增容策略**\n\n若插入元素時空間不足，可進行 **動態擴容**（常見策略為「倍增法」）：\n\n```c\nc\nvoid IncreaseSize(Sq\n```\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n**傳值（by value）** vs **傳參考（by reference）**。\n\n| 寫法 | 含義 | 是否修改到原始資料 | 效率 |\n| --- | --- | --- | --\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `計算機概論/數據表示和運算.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"計算機概論/數據表示和運算.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**進制轉換**\n\nr 進制 → 十進制\n\n- 將 r 進制數的每位數碼乘以該位的權值（r 的冪次）後相加\n\n二進制 ↔ 八進制\n\n- 每 **3 位二進制** 對應 1 位八進制\n\n二進制\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n### 十進制 ↔ r 進制\n\n**十進制整數部分 → r 進制**\n\n- **除基取餘法**：不斷除以 r，依次取餘數（低位在前，高位在後）\n\n![image.png](assets/cc\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\n **邏輯移位 vs 算術移位   &溢位判斷**\n\n 邏輯移位 vs 算術移位\n\n| 類型 | 左移 | 右移 | 左側補位 | 適用於 |\n| --- | --- | --- | ---\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `網路筆記/錯誤考題回顧.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"網路筆記/錯誤考題回顧.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\nex\n\n![image.png](assets/image%2011.png)\n\n答案：B. 15.36 μs\n\n理由\n<!-- ... existing content ... -->\n</aside>\n<!-- ... existing content ... -->\n\n<aside>\n💡 \n\n---\n\nans\n\n已知：\n\n- DIFS = 128 μs\n- SIFS = 28 μs\n- RTS 傳輸延遲 = 3 μs\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `網路筆記/計算機網路的概念.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"網路筆記/計算機網路的概念.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**時延帶寬積**\n\n**時延帶寬積=傳播時延（s）×通道帶寬（bps）**\n\n意義與用途：\n\n- 表示：**通道中可「容納」多少資料正在傳送**\n- 就像「水管長度 × 流速 = 同時存在\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>\n\n### 修正檔案: `作業系統/操作系統概念.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"作業系統/操作系統概念.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**內核作用與種類**\n\n![image.png](assets/image.png)\n\n**大內核（Monolithic Kernel） V.S 微內核（Microkernel）** \n\n---\n\n</aside>\n<!-- ... existing content ... -->\n</smtcmp_block>\n\n### 修正檔案: `資料結構/鏈式存儲.md`\n\n已修正 `<aside>` 區塊的排版，新增了分隔線並調整了行距。\n\n<smtcmp_block filename=\"資料結構/鏈式存儲.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n<aside>\n💡 \n\n---\n\n**📚 延伸知識**\n\n**數據類型的重命名**  \n\n **typedef<數據類型><別名>**\n\n```csharp\nstruct LNode{\n\t\tElemType data;\n\t\n```\n<!-- ... existing content ... -->\n</aside>\n</smtcmp_block>",
+      "id": "4ecd39c9-fe35-4c97-8b8d-9e2915532f7c",
+      "metadata": {
+        "model": {
+          "providerType": "gemini",
+          "providerId": "gemini",
+          "id": "gemini-2.5-flash",
+          "model": "gemini-2.5-flash"
+        },
+        "usage": {
+          "prompt_tokens": 21255,
+          "completion_tokens": 3293,
+          "total_tokens": 27782
+        }
+      }
+    }
+  ],
+  "createdAt": 1766453635891,
+  "updatedAt": 1766454369883,
+  "schemaVersion": 1
+}
