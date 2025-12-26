@@ -11,10 +11,14 @@
             "id": "b36bdd2b2d891109",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "網路筆記/錯誤考題回顧.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "錯誤考題回顧"
             }
           }
         ]
@@ -190,8 +194,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,10 +218,10 @@
   },
   "active": "b36bdd2b2d891109",
   "lastOpenFiles": [
+    "資料結構/資料結構考題.md",
     "未命名.base",
     "conflict-files-obsidian-git.md",
     "未命名.canvas",
-    "資料結構/資料結構考題.md",
     "資料結構/圖.md",
     "計算機概論/存储系统.md",
     "資料結構/鏈式存儲.md",
