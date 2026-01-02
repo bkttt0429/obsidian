@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "779a24f3293ebb80",
+        "id": "aa96d221d2318784",
         "type": "tabs",
         "children": [
           {
-            "id": "73185961b17131f5",
+            "id": "28d5cba50d053357",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "資料結構/樹.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "樹"
             }
           }
         ]
@@ -212,8 +216,12 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "70fa7f4b33b00d9b",
+  "active": "28d5cba50d053357",
   "lastOpenFiles": [
+    "2024統考真題-16.md",
+    "資料結構/樹.md",
+    "資料結構/數據結構基本概念.md",
+    "資料結構/線性表-Linear List.md",
     "未命名.md",
     "網路筆記/錯誤考題回顧.md",
     "資料結構/資料結構考題.md",
@@ -223,7 +231,6 @@
     "資料結構/圖.md",
     "計算機概論/存储系统.md",
     "資料結構/鏈式存儲.md",
-    "資料結構/樹.md",
     "資料結構/Hash Table.md",
     "資料結構/查找.md",
     "作業系統/CPU調度.md",
@@ -240,9 +247,6 @@
     "計算機概論/I O系統.md",
     "計算機概論/CPU控制器.md",
     "計算機概論/總線.md",
-    "計算機概論/錯題回顧.md",
-    "計算機概論/數據表示和運算.md",
-    "計算機概論/計算機組成.md",
     "作業系統/assets/VMM.png",
     "作業系統/assets/image.png",
     "作業系統/assets/image 9.png",
