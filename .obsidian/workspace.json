@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "aa96d221d2318784",
+        "id": "7f9646cdb0679613",
         "type": "tabs",
         "children": [
           {
-            "id": "28d5cba50d053357",
+            "id": "ac790ad87d22fe68",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "資料結構/樹.md",
-                "mode": "source",
-                "source": false
+                "path": "資料結構"
               },
               "icon": "lucide-file",
-              "title": "樹"
+              "title": "資料結構"
             }
           }
         ]
@@ -219,8 +217,11 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "f27da4e3c40db911",
+  "active": "ac790ad87d22fe68",
   "lastOpenFiles": [
+    "計算機概論/CPU控制器.md",
+    "資料結構/排序.md",
+    "資料結構/樹.md",
     "assign_user_images.py",
     "資料結構/assets/huffman/huffman_04_entropy.png",
     "資料結構/assets/huffman/huffman_03_tree_growth.png",
@@ -241,8 +242,6 @@
     "資料結構/assets/huffman/unnamed(5).jpg",
     "資料結構/assets/huffman/unnamed(4).jpg",
     "資料結構/assets/huffman/unnamed(3).jpg",
-    "資料結構/assets/huffman",
-    "資料結構/樹.md",
     "資料結構/資料結構考題.md",
     "資料結構/鏈式存儲.md",
     "資料結構/assets/MorrisTraversal.html.md",
@@ -266,7 +265,6 @@
     "作業系統/文件管理.md",
     "作業系統/設備管理.md",
     "作業系統/進程與線程.md",
-    "作業系統/操作系統概念.md",
-    "計算機概論/I O系統.md"
+    "作業系統/操作系統概念.md"
   ]
 }
