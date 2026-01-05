@@ -221,6 +221,7 @@
   },
   "active": "28d5cba50d053357",
   "lastOpenFiles": [
+    "truly_fix_huffman.py",
     "final_huffman_fix_v2.py",
     "final_huffman_fix.py",
     "資料結構/assets/huffman/img_b619eb1bb8.jpg",
@@ -241,7 +242,6 @@
     "Tags",
     "資料結構/樹.md",
     "fix_huffman.py",
-    "integrate_huffman.py",
     "huffman_files/unnamed.jpg",
     "資料結構/資料結構考題.md",
     "資料結構/鏈式存儲.md",
