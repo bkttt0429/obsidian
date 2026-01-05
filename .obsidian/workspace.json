@@ -198,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,7 +216,7 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "28d5cba50d053357",
+  "active": "70fa7f4b33b00d9b",
   "lastOpenFiles": [
     "資料結構/assets/MorrisTraversal.html",
     "資料結構/assets/MorrisTraversal.html.md",
