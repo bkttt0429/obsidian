@@ -2,9 +2,7 @@
 .resizable-iframe-container {
     resize: vertical;
     overflow: auto;
-    /* 必須設為 auto 或 hidden 才能啟用 resize */
     border: 1px solid var(--background-modifier-border);
-    /* 加上邊框讓範圍更明顯 */
     border-radius: 1rem;
     padding: 0;
     margin-bottom: 1em;
@@ -13,10 +11,18 @@
     display: block;
 }
 
-/* 讓內部的 iframe 填滿容器 */
 .resizable-iframe-container iframe {
     width: 100%;
     height: 100%;
     border: none;
     display: block;
+}
+
+/* 無縫自動調整高度 iframe (新) */
+.seamless-iframe {
+    width: 100%;
+    border: none;
+    display: block;
+    overflow: hidden !important;
+    min-height: 600px;
 }
