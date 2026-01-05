@@ -219,8 +219,13 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "28d5cba50d053357",
+  "active": "39f6ac9531db794a",
   "lastOpenFiles": [
+    "assign_user_images.py",
+    "資料結構/assets/huffman/huffman_04_entropy.png",
+    "資料結構/assets/huffman/huffman_03_tree_growth.png",
+    "資料結構/assets/huffman/huffman_02_compression.png",
+    "資料結構/assets/huffman/huffman_01_fixed_length.png",
     "final_huffman_repair.py",
     "repair_huffman.py",
     "truly_fix_huffman.py",
@@ -236,13 +241,8 @@
     "資料結構/assets/huffman/unnamed(5).jpg",
     "資料結構/assets/huffman/unnamed(4).jpg",
     "資料結構/assets/huffman/unnamed(3).jpg",
-    "資料結構/assets/huffman/unnamed(2).jpg",
-    "資料結構/assets/huffman/unnamed(1).jpg",
-    "資料結構/assets/huffman/AF2bZyjKMgp8hYtrz8uwlAs5nm2p_PlQ7vIqFy1VAru7NqEk7G.jpg",
     "資料結構/assets/huffman",
-    "download_huffman_assets.py",
     "資料結構/樹.md",
-    "huffman_files/unnamed.jpg",
     "資料結構/資料結構考題.md",
     "資料結構/鏈式存儲.md",
     "資料結構/assets/MorrisTraversal.html.md",
