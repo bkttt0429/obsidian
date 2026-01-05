@@ -219,9 +219,10 @@
   },
   "active": "28d5cba50d053357",
   "lastOpenFiles": [
+    "資料結構/assets/鄰接多重表structure.png",
+    "資料結構/樹.md",
     "資料結構/assets/MorrisTraversal.html",
     "資料結構/assets/MorrisTraversal.html.md",
-    "資料結構/樹.md",
     "資料結構/線性表-Linear List.md",
     "2024統考真題-16.md",
     "資料結構/數據結構基本概念.md",
@@ -264,7 +265,6 @@
     "作業系統/操作系統筆記 246c1f61b25b80da9f95dfecdd9fa5ec.csv",
     "作業系統",
     "計算機概論/assets",
-    "計算機概論/organize_images_cs.py",
-    "計算機概論/計算機組成原理 247c1f61b25b80d98db6c3b3a21894fc_all.csv"
+    "計算機概論/organize_images_cs.py"
   ]
 }
