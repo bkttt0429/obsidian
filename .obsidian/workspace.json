@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "資料結構/樹.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -219,7 +219,7 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "39f6ac9531db794a",
+  "active": "28d5cba50d053357",
   "lastOpenFiles": [
     "assign_user_images.py",
     "資料結構/assets/huffman/huffman_04_entropy.png",
