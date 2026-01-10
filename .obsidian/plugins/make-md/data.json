@@ -38,7 +38,8 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//資料結構"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

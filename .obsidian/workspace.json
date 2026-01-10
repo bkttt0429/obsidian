@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c979ed1971c10c7e",
+        "id": "d3deebaea8dce2a9",
         "type": "tabs",
         "children": [
           {
-            "id": "253961061d216646",
+            "id": "752a60e39923d6fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "資料結構/樹.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大綱"
+              "title": "樹 的大綱"
             }
           },
           {
@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "e5700ac234ba6ff4",
+            "id": "beefe581b4133278",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -99,12 +99,12 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "86411ad6991e0cde",
@@ -191,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,11 +209,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "253961061d216646",
+  "active": "752a60e39923d6fe",
   "lastOpenFiles": [
-    "Tags",
     "資料結構/樹.md",
     "Home.md",
+    "src/site/notes/Home.md",
+    "src/site/notes",
+    "src/site",
+    "src",
+    "Tags",
     "資料結構/算法和算法效率的評價.md",
     "計算機概論/CPU控制器.md",
     "資料結構/排序.md",
@@ -230,10 +233,6 @@
     "final_huffman_fix.py",
     "資料結構/assets/huffman/img_b619eb1bb8.jpg",
     "資料結構/assets/huffman/img_57f320b3bb.jpg",
-    "fix_huffman_assets_v2.py",
-    "huffman_asset_mapping.json",
-    "fix_huffman_assets.py",
-    "huffman_image_map.json",
     "資料結構/assets/huffman/unnamed.jpg",
     "資料結構/assets/huffman/unnamed(5).jpg",
     "資料結構/assets/huffman/unnamed(4).jpg",
