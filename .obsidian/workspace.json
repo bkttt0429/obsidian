@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c55e384f3445e2d3",
+        "id": "cd8f761423340b43",
         "type": "tabs",
         "children": [
           {
-            "id": "9ddb8a3a8ea10bd9",
+            "id": "19f332c0e14cbd52",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "資料結構/樹.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "樹 的大綱"
+              "title": "Home 的大綱"
             }
           },
           {
@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "84e88d52eac3421b",
+            "id": "4a8c2f5e7b55873c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -99,12 +99,12 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "86411ad6991e0cde",
@@ -209,7 +209,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9ddb8a3a8ea10bd9",
+  "active": "19f332c0e14cbd52",
   "lastOpenFiles": [
     "資料結構/樹.md",
     "Home.md",
