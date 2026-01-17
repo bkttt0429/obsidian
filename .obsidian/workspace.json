@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "資料結構/圖.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "圖"
             }
           }
         ]
@@ -212,9 +212,9 @@
   },
   "active": "2bb7f762239e8190",
   "lastOpenFiles": [
+    "Home.md",
     "資料結構/樹.md",
     "資料結構/查找.md",
-    "Home.md",
     "src/site/notes/Home.md",
     "src/site/notes",
     "src/site",
