@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd8f761423340b43",
+        "id": "2b800c1f8f73e9ed",
         "type": "tabs",
         "children": [
           {
-            "id": "19f332c0e14cbd52",
+            "id": "2bb7f762239e8190",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "資料結構/樹.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大綱"
+              "title": "樹 的大綱"
             }
           },
           {
@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "4a8c2f5e7b55873c",
+            "id": "3dd9193878d98714",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "資料結構/樹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Home 的對外連結"
+              "title": "樹 的對外連結"
             }
           },
           {
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,9 +210,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "19f332c0e14cbd52",
+  "active": "2bb7f762239e8190",
   "lastOpenFiles": [
     "資料結構/樹.md",
+    "資料結構/查找.md",
     "Home.md",
     "src/site/notes/Home.md",
     "src/site/notes",
@@ -250,7 +252,6 @@
     "資料結構/圖.md",
     "計算機概論/存储系统.md",
     "資料結構/Hash Table.md",
-    "資料結構/查找.md",
     "作業系統/CPU調度.md",
     "作業系統/內存管理.md",
     "網路筆記/網路參考模型.md",
